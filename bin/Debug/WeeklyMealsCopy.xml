@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weekly_Meals>
+	<Meal>
+		<name>Fajitas</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Rice, ground meat, and marinara sauce</name>
+		<time>30</time>
+	</Meal>
+	<Meal>
+		<name>Burritos</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Spaghetti and meat sauce</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Spaghetti and meatballs</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Chicken Pot Pie</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Shepherd's Pie</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Lasagna</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Stir fry</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Chickpea Burgers</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Beet Burgers</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Thai Curry</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Pulled Pork</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Chili</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Lemon Chicken</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Ribs</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Chana Masala</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Lentils</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Tandoori Chicken</name>
+		<time>40</time>
+	</Meal>
+	<Meal>
+		<name>Chicken Curry</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Bharta</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Coconut Chicken Stew</name>
+		<time>60</time>
+	</Meal>
+	<Meal>
+		<name>Butter Chicken</name>
+		<time>60</time>
+	</Meal>
+<Meal><name>Pesto pasta</name><time>30</time></Meal><Meal><name>Stuffed peppers</name><time>45</time></Meal><Meal><name>Chicken parmesan</name><time>60</time></Meal><Meal><name>Eggplant parmesan</name><time>60</time></Meal><Meal><name>Curry in a hurry</name><time>45</time></Meal><Meal><name>Fried chicken</name><time>30</time></Meal><Meal><side>Fried cauliflower</side></Meal><Meal><side>Sweet potato</side></Meal><Meal><side>Butternut squash</side></Meal><Meal><side>Broccoli</side></Meal><Meal><side>Zucchini</side></Meal><Meal><side>Eggplant</side></Meal><Meal><side>Edamame</side></Meal><Meal><side>Peas</side></Meal><Meal><bbq>Ribs</bbq></Meal><Meal><bbq>Chicken</bbq></Meal><Meal><bbq>Steak</bbq></Meal><Meal><bbq>Pork tenderloin</bbq></Meal><Meal><bbq>Lamb</bbq></Meal></Weekly_Meals>

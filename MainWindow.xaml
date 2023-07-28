@@ -1,0 +1,47 @@
+﻿<Window x:Class="WeeklyMealPlannerXMLTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeeklyMealPlannerXMLTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="490.385" Width="1094.307">
+    <Grid HorizontalAlignment="Left" Width="1126" Margin="0,0,-38,-2.2" RenderTransformOrigin="0.533,0.509" Height="463" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="551*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="578*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ChoiceButton" Content="Click to see your meals for this week" HorizontalAlignment="Left" Margin="42,227,0,0" VerticalAlignment="Top" Width="217" Click="ChoiceButton_Click" Height="36"/>
+        <TextBox x:Name="Meals" HorizontalAlignment="Left" Height="141" Margin="42,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="453"/>
+        <CheckBox x:Name="CheckBox" Content="I want takeout on Wednesday" HorizontalAlignment="Left" Margin="275,238,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Height="15" Width="216"/>
+        <Button x:Name="ExtraShortMeal" Content="Click if you want an extra short (45 minutes or less) meal" HorizontalAlignment="Left" Margin="42,333,0,0" VerticalAlignment="Top" Width="358" Height="34" Click="ExtraShortMeal_Click"/>
+        <TextBox x:Name="ShortMealText" HorizontalAlignment="Left" Height="44" Margin="42,284,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="358"/>
+        <TextBox x:Name="AllMealsTxtBox" HorizontalAlignment="Left" Height="166" Margin="25.2,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" TextChanged="AllMealsTxtBox_TextChanged" Grid.Column="4"/>
+        <Button x:Name="ShowXmlBtn" Content="Update Meals List" HorizontalAlignment="Left" Margin="205.6,220,0,0" VerticalAlignment="Top" Width="111" Click="ShowXmlBtn_Click" Height="27" Grid.Column="4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="193,24,0,0" TextWrapping="Wrap" Text="Main Meal Planner" VerticalAlignment="Top" Height="26" Width="143" FontSize="16"/>
+        <Button x:Name="AddMealBtn" Content="Add a Meal" HorizontalAlignment="Left" Margin="27.6,220,0,0" VerticalAlignment="Top" Width="120" Height="27" Click="AddMealBtn_Click" Grid.Column="4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="335.2,28,0,0" TextWrapping="Wrap" Text="To delete a meal, side, or BBQ meal, enter its number here" VerticalAlignment="Top" Width="153" Height="48" Grid.Column="4"/>
+        <TextBox x:Name="DeleteTxtBox" HorizontalAlignment="Left" Height="39" Margin="335.2,81,0,0" TextWrapping="Wrap" Text="Enter # here" VerticalAlignment="Top" Width="157" Grid.Column="4"/>
+        <Button x:Name="DeleteMealBtn" Content="Delete Meal" HorizontalAlignment="Left" Margin="335.6,146,0,0" VerticalAlignment="Top" Width="157" Click="Button_Click_1" Grid.Column="4" Height="23"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Margin="119.2,268,0,0" TextWrapping="Wrap" Text="Sides" VerticalAlignment="Top" Height="16" Width="28" RenderTransformOrigin="0.57,1.102"/>
+        <TextBox x:Name="SideTxtBox" Grid.Column="4" HorizontalAlignment="Left" Height="115" Margin="25.2,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
+        <Button x:Name="AddSideBtn" Content="Add a Side" Grid.Column="4" HorizontalAlignment="Left" Margin="25.2,414,0,0" VerticalAlignment="Top" Width="81" Height="27" Click="AddSideBtn_Click"/>
+        <Button x:Name="UpdateSideBtn" Content="Update List" Grid.Column="4" HorizontalAlignment="Left" Margin="159.2,414,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="UpdateSideBtn_Click"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Margin="360.2,267,0,0" TextWrapping="Wrap" Text="BBQ Meals" VerticalAlignment="Top" Height="16" Width="58"/>
+        <TextBox x:Name="BbqTxtBox" Grid.Column="4" HorizontalAlignment="Left" Height="115" Margin="283.2,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
+        <Button x:Name="AddBbqBtn" Content="Add a BBQ Meal" Grid.Column="4" HorizontalAlignment="Left" Margin="283.2,414,0,0" VerticalAlignment="Top" Width="95" Height="27" Click="AddBbqBtn_Click"/>
+        <Button x:Name="UpdateBbqBtn" Content="Update List" Grid.Column="4" HorizontalAlignment="Left" Margin="401.2,414,0,0" VerticalAlignment="Top" Width="87" Height="27" Click="UpdateBbqBtn_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134.6,15,0,0" TextWrapping="Wrap" Text="Main Dishes" VerticalAlignment="Top" Height="26" Width="94" FontSize="16" Grid.Column="4"/>
+        <Button x:Name="DeleteBbqBtn" Content="Delete BBQ Meal" Grid.Column="4" HorizontalAlignment="Left" Margin="335.6,223,0,0" VerticalAlignment="Top" Width="157" Height="24" Click="DeleteBbqBtn_Click"/>
+        <Button x:Name="DeleteSideBtn" Content="Delete Side" Grid.Column="4" HorizontalAlignment="Left" Margin="335.6,183,0,0" VerticalAlignment="Top" Width="157" Height="24" Click="DeleteSideBtn_Click"/>
+        <CheckBox x:Name="DeleteChkBox" Content="Keep text box blank ^" Grid.Column="4" HorizontalAlignment="Left" Margin="335.6,125,0,0" VerticalAlignment="Top" Height="21"/>
+        <Button x:Name="SaveBackupBtn" Content="Save my current meal list in a backup file" HorizontalAlignment="Left" Margin="42,414,0,0" VerticalAlignment="Top" Width="228" Height="27" Click="SaveBackupBtn_Click"/>
+        <Button x:Name="ImportBackupBtn" Content="Something went wrong, import my backup file!" HorizontalAlignment="Left" Margin="275,414,0,0" VerticalAlignment="Top" Width="263" Height="27" Click="ImportBackupBtn_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,391,0,0" TextWrapping="Wrap" Text="Note: After importing your backup file, you must save it to replace the main file with the backup." VerticalAlignment="Top" Grid.ColumnSpan="5" Width="529"/>
+
+    </Grid>
+</Window>

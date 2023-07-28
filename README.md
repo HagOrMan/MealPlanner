@@ -33,5 +33,6 @@ Here you can view all the possible meals, sides, and bbq dishes in your file <br
 ### Add a Meal
 Here is the screen that pops up when you click to add a meal/side/bbq item <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/1c9fa730-dfa2-4b98-992a-75d609b5a2e5)
+Toggling the check box makes the window stay open after you add the meal so that you don't have to reopen it for each meal. If not toggled on, the window closes after you have added your meal.
 
 

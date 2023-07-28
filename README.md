@@ -1,5 +1,6 @@
 # MealPlanner
 I made this 5 or 6 years ago as a way to help my mom plan meals. She said she always had trouble thinking of what to have, and I thought I could try and learn more C# (I was already learning a bit through a school club) to make her a simple meal planner app. 
+Also, feel free to look in WeeklyMeals.xml for meal ideas if you're strugling to plan meals yourself!
 
 ## Things I Included
 - List of all the meals she might be interested in making, ensuring that during week days, the meals suggested had shorter cook times, and on weekends they were allowed to be longer

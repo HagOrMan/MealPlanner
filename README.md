@@ -15,23 +15,23 @@ I am uploading this to github half a decade after making it because I wanted to 
 
 ## Visual Preview
 ### Entry Screen
-This is what the meal planner app looks like when you first load it up
+This is what the meal planner app looks like when you first load it up <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/e2c3e836-4d94-4c4f-b687-69e5322d9ce3)
 
 ### Random Meals
-This is the Main section when you click to get random meals for the week
+This is the Main section when you click to get random meals for the week <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/034833ab-da43-45b9-87d7-30acd57e3f07)
 
 ### Random Short Meal
-This is the random short meal section, used if you just want a quick meal idea to make
+This is the random short meal section, used if you just want a quick meal idea to make <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/0ef59b3f-7b57-4d80-b68d-512153706cbe)
 
 ### View All Meals
-Here you can view all the possible meals, sides, and bbq dishes in your file
+Here you can view all the possible meals, sides, and bbq dishes in your file <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/ef0d5d42-abfc-4463-9f17-e4db6bc7343e)
 
 ### Add a Meal
-Here is the screen that pops up when you click to add a meal/side/bbq item
+Here is the screen that pops up when you click to add a meal/side/bbq item <br/>
 ![image](https://github.com/HagOrMan/MealPlanner/assets/86536365/1c9fa730-dfa2-4b98-992a-75d609b5a2e5)
 
 

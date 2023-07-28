@@ -8,4 +8,5 @@ I made this 5 or 6 years ago as a way to help my mom plan meals. She said she al
 - A way to simply view all the possible meal options rather than randomizing the meal each week
 - Generating one short meal instead of a weekly plan
 
+## About the Project
 I am uploading this to github half a decade after making it because I wanted to use this as part of my HackTheNorth application as "something you're proud of". I'm not proud of the code (much less the fact that instead of using version control through git, I simply remade the project and have 3 folders with different versions of the project. This one that I uploaded here should have been a branch to test the xml strucure, but instead I named it as {Project_Name}_XMLTest). However, I am proud of my initiative in recognizing a problem that my mom was facing and trying to use my newfound coding skills to help her!
